@@ -9,7 +9,7 @@
 * IntelliJ IDEA
 * Visual Studio Code + Terminal (bash, etc..)
 * Any source-code editor of your choice that you feel comfortable with writing Java.
-* Juice-shop webserver on local env.
+* Juice-shop web server running on local env (http://localhost:3000/).
 ## 2. How to execute
 ### 2.1. On macOS/Linux:
 * cd into: `web-automation-juice`
