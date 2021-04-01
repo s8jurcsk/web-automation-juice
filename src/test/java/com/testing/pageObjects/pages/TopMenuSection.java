@@ -13,18 +13,18 @@ import net.serenitybdd.core.pages.WebElementFacade;
 public class TopMenuSection extends BasePage {
   // Locators
   // -------------------------------------------------------------------------------------------------------------------
-  public static By ACCOUNT_BUTTON;
-  public static By LOGIN_BUTTON;
-  public static By SEARCH_ICON;
-  public static By SEARCH_FIELD;
-  public static By SHOPPING_CART_BUTTON;
-  public static By CHOOSE_LANGUAGE_BUTTON;
-  public static By LANGUAGE_LIST;
-  public static By ORDERS_AND_PAYMENT_OPTION;
-  public static By PRIVACY_AND_SECURITY_OPTION;
-  public static By LOGOUT_BUTTON;
-  public static By CHANGE_PASSWORD_BUTTON;
-  public static By DIGITAL_WALLET_OPTION;
+  public static By ACCOUNT_BUTTON = css("button[id=navbarAccount]");
+  public static By LOGIN_BUTTON = css("button[id=navbarLoginButton]");
+  public static By SEARCH_ICON = css("mat-icon[class*=mat-search_icon-search]");
+  public static By SEARCH_FIELD = css("input[id=mat-input-0]");
+  public static By SHOPPING_CART_BUTTON = css("button[aria-label='Show the shopping cart']");
+  public static By CHOOSE_LANGUAGE_BUTTON = css("button[aria-label='Language selection menu']");
+  public static By LANGUAGE_LIST = css("div[id=mat-menu-panel-1]>div>mat-radio-button");
+  public static By ORDERS_AND_PAYMENT_OPTION = css("button[aria-label='Show Orders and Payment Menu']");
+  public static By PRIVACY_AND_SECURITY_OPTION = css("button[aria-label='Show Privacy and Security Menu']");
+  public static By LOGOUT_BUTTON = css("button[id=navbarLogoutButton]");
+  public static By CHANGE_PASSWORD_BUTTON = css("button[aria-label='Go to change password page']");
+  public static By DIGITAL_WALLET_OPTION = css("button[aria-label='Go to wallet page']");
 
   // Public methods
   // -------------------------------------------------------------------------------------------------------------------

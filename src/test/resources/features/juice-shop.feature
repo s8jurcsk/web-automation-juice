@@ -4,7 +4,6 @@ Feature: Juice Shop Actions
     And   I click "Dismiss button"
     And   I click "Me want it button"
 
-  @run
   Scenario: Set items per page
     When I click "Items per page"
     And  I click "Option 24"
@@ -27,7 +26,7 @@ Feature: Juice Shop Actions
       | King of the Hill |
     And  I click "Reviews expand"
     Then "Comment section" should contain "K33p5 y0ur ju1cy 5plu773r 70 y0ur53lf!"
-
+@run
   Scenario: Add comment
     When I "log in" with the following data:
       | Email | Password |
