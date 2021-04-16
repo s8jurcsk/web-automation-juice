@@ -26,7 +26,7 @@ Feature: Juice Shop Actions
       | King of the Hill |
     And  I click "Reviews expand"
     Then "Comment section" should contain "K33p5 y0ur ju1cy 5plu773r 70 y0ur53lf!"
-@run
+
   Scenario: Add comment
     When I "log in" with the following data:
       | Email | Password |
@@ -142,7 +142,7 @@ Feature: Juice Shop Actions
     Then I see "address" with the following data:
       | Name    | Address               | Country |
       | Karlson | Random Address 25-395 | Sweden  |
-
+  @run
   Scenario: Order an item
     When I "log in" with the following data:
       | Email | Password |

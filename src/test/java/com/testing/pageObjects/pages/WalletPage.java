@@ -8,9 +8,9 @@ import net.thucydides.core.annotations.DefaultUrl;
 public class WalletPage extends HomePage {
   // Locators ----------------------------------------------------------------------------------------------------------
   public static By DISMISS_BUTTON;
-  public static By WALLET_TITLE;
-  public static By WALLET_BALANCE;
-  public static By AMOUNT_FIELD;
+  public static By WALLET_TITLE = text("Digital Wallet");
+  public static By WALLET_BALANCE = css("span[class='confirmation']");
+  public static By AMOUNT_FIELD=css("input[aria-label='Enter an amount']");
 
   // Public methods ----------------------------------------------------------------------------------------------------
   public void waitForPageToLoad() {

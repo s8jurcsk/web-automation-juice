@@ -15,9 +15,9 @@ import net.thucydides.core.annotations.DefaultUrl;
 public class AddressSelectPage extends BasketPage {
   // Locators
   // -------------------------------------------------------------------------------------------------------------------
-  public static By SELECT_AN_ADDRESS_TITLE;
-  public static By CONTINUE_BUTTON;
-  public static By ADD_NEW_ADDRESS_BUTTON;
+  public static By SELECT_AN_ADDRESS_TITLE = text("Select an address");
+  public static By CONTINUE_BUTTON = text("Continue");
+  public static By ADD_NEW_ADDRESS_BUTTON = text("Add New Address");
   // Public methods
   // -------------------------------------------------------------------------------------------------------------------
   public void waitForPageToLoad(){

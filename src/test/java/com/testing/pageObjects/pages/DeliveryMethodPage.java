@@ -14,8 +14,8 @@ import net.thucydides.core.annotations.DefaultUrl;
 public class DeliveryMethodPage extends AddressSelectPage {
   // Locators
   // -------------------------------------------------------------------------------------------------------------------
-  public static By DELIVERY_SPEED_TITLE;
-  public static By CONTINUE_BUTTON;
+  public static By DELIVERY_SPEED_TITLE = text("Delivery Address");
+  public static By CONTINUE_BUTTON = ariaLabel("Proceed to delivery method selection");
   // Public methods
   // -------------------------------------------------------------------------------------------------------------------
   public void waitForPageToLoad(){
